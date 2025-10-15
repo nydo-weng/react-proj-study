@@ -1,0 +1,95 @@
+ultimate-react-course-main/
+# ---------------------------
+# Node.js
+# ---------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-debug.log*
+
+# ---------------------------
+# Build output
+# ---------------------------
+dist/
+build/
+out/
+.next/
+.vercel/
+.temp/
+.cache/
+.vite/
+vite.config.ts.timestamp-*
+
+# ---------------------------
+# TypeScript
+# ---------------------------
+*.tsbuildinfo
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+logs/
+*.log.*
+*.gz
+debug/
+lerna-debug.log
+
+# ---------------------------
+# Environment files
+# ---------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ---------------------------
+# Editor & OS files
+# ---------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# ---------------------------
+# Test coverage
+# ---------------------------
+coverage/
+.nyc_output/
+
+# ---------------------------
+# Misc
+# ---------------------------
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.zip
+
+# ---------------------------
+# Storybook / Docs
+# ---------------------------
+storybook-static/
+.styleguide/
+
+# ---------------------------
+# Local runtime files
+# ---------------------------
+*.local
+*.iml
+
+# ---------------------------
+# Lock files (optional — depends on your team policy)
+# ---------------------------
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
